@@ -1,0 +1,107 @@
+.titulo{
+    position: relative;
+    display: inline-block;
+}
+.pasteleria{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: 'Nerko One', cursive;
+    color: #b400a2;
+    font-size: 70px;
+}
+.inicio{
+    width: 300px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #a277ad;
+    color: white;
+    text-decoration: none ;
+    font-family: 'Bebas Neue', cursive;  
+    justify-content: center;    
+    display: flex;
+    align-items: center;
+}
+.nosotroshastacontacto{
+    width: 175px; /* No he puesto las medidas que das, porque no cuadraba,
+                    entonces estuve probando medidas*/
+    height: 65px;
+    border-radius: 10px;
+    background-color: #a277ad;
+    color: white;
+    text-decoration: none ;
+    font-family: 'Bebas Neue', cursive;  
+    justify-content: center;    
+    display: flex;
+    align-items: center;    
+}
+body{
+    background-image: url(../img/fodo3.jpg);
+    background-repeat:no-repeat ;
+    background-position: center ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+hr{
+background-color: #962d59;
+border-color: #962d59;
+}
+h3{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+}
+h1{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+  }
+p{
+    color: rgb(138, 133, 133);
+}
+.pasteleriadelice{
+    color: #b400a2;
+    text-decoration: none ;
+    font-family: 'Nerko One', cursive;
+    font-size: 25px;
+}
+.aviso{
+       padding-left: 20px ; 
+}
+em{ /* he intenado cuadrar el texto y poner el alrededor mas separado y no me sale */
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    color: #b400a2;
+    border-style: dotted;
+    border-radius: 10px;
+    justify-content: center;    
+}
+.imagen{
+    color: #b400a2;
+    border-style: dotted;
+    border-radius: 10px;
+    width:500px;
+    height:290px;
+}
+td{
+    padding: 0px;
+}
+strong{
+    color: #962d59;
+}
+.formulario{
+    color: #962d59;
+    font-family: 'Fredoka One', cursive; 
+}
+.contacto{
+    color: #962d59;
+    font-family: 'Fredoka One', cursive; 
+    font-size: 20px;
+}
+.contactos{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;   
+    font-size: 20px;
+    box-align:right;
+}
+.producto{
+    text-decoration: none ;
+}
